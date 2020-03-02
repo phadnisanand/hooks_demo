@@ -1,0 +1,4 @@
+services:
+  servicedemo.api_demo:
+    class: Drupal\servicedemo\ApiDemo
+    arguments: ['@entity_type.manager', '@database', '@language_manager','@current_user','@entity.query']

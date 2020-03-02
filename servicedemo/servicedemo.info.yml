@@ -1,0 +1,4 @@
+name: Service demo
+type: module
+description: 'Service demo example module'
+core: '8.x'

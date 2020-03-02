@@ -1,0 +1,6 @@
+service.tree:
+  path: '/servicedemo'
+  defaults:
+    _controller: '\Drupal\servicedemo\Controller\ServiceDemoController::outputTree'
+  requirements:
+    _access: 'TRUE'
